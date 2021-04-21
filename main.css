@@ -2,9 +2,10 @@ body {
     background-color: #AEB6BF;
     margin: 0px 50px 0px 50px;
     padding: 0px 50px 0px 50px;
+    font-family: 'Crimson Text', serif;
   }
 a {
-    color:#A93226 ;
+    color:#A93226;
   }
 img {
     max-width: 100%;
@@ -27,14 +28,31 @@ h2 {
     font-family: 'Crimson Text', serif;
     text-align: center;
   }
-h3 {
-    color: #1F618D;
-    font-size: 15px;
-    font-family: 'Crimson Text', serif;
-    text-align: center;
-  }
+figcaption {
+  color: #1F618D;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Crimson Text', serif;
+}
 p {
     font-size: 16px;
     font-family: 'Crimson Text', serif;
     text-align: justify;
+    }
+blockquote {
+      color: #1F618D;
+      font-size: 15px;
+      font-family: 'Crimson Text', serif;
+      text-align: center;
+    }    
+blockquote:before {
+      content: open-quote;
+    }
+blockquote:after {
+      content: close-quote;
+    }
+footer p {
+      color:#A93226;
+      font-size: 15px;
+      font-family: 'Crimson Text', serif;
     }
